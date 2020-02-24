@@ -1,0 +1,80 @@
+body {
+  padding: 0px 50px 50px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  color: #414141;
+  background: #e8edf3;
+  padding: 25px 0;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h3{
+  text-shadow: 2px 2px 8px rgba(70, 74, 110, 0);
+}
+
+input{
+  width: 40px;
+}
+
+.shopping-cart {
+    font-family: "Times New Roman", Times, serif;
+    width: auto;
+    height: 150px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  .Table.shopping-cart .TableCell, .Table.shopping-cart .TableHead {
+    border: 0px solid #AAAAAA;
+    padding: 15px 15px;
+  }
+  .Table.shopping-cart .TableBody .TableCell {
+    font-size: 15px;
+  }
+  .Table.shopping-cart .product:nth-child(even){
+    background: #d4d8dc;
+  }
+  .Table.shopping-cart .column-labels {
+      border-bottom: 1px solid #444444;
+  }
+  .shopping-cart .column-labels .TableHead {
+    font-size: 13px;
+    font-weight: bold;
+    color: #191919;
+    text-align: left;
+  }
+
+ /* I added the dollar sign next to price */
+  .product .product-price:before, .product .product-line-price:before, .totals-value:before {
+    content: '$';
+  }
+  .totals {
+    display: table-row;
+  }
+ 
+  /* Table */
+  .Table{ display: table; }
+  .product { display: table-row; }
+  .column-labels { display: table-header-group;}
+  .TableCell, .TableHead { display: table-cell;}
+  .column-labels { display: table-header-group;}
+  .TableBody { display: table-row-group;}
+
+  /* checkout button */
+  .checkout {
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    margin-right: -180%;
+    padding: 6px 10px;
+    background-color: #0a1352;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .checkout:hover {
+    background-color: #494;
+  }
